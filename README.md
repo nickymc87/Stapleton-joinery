@@ -1,11 +1,18 @@
-# Stapleton Joinery — Measure & Quote V2
+# Stapleton Joinery at Home V3
 
-Mobile-first two-sash flush casement prototype with refreshed interface, drawing review checklist, site measurements, demo pricing and a workshop printout.
+Customer-facing window design studio based on Stapleton Joinery feedback.
 
-## Update existing GitHub site
-Replace the **root-level `index.html`** in your existing GitHub repository with this one. Do not upload the ZIP as a file. GitHub Pages will redeploy; refresh the Safari app when it finishes.
+## Main changes
 
-**Important:** Jobs are stored only in the current browser via localStorage. Before replacing the site or using another device, go to Jobs > Back up all jobs. Backups are JSON files; use Restore backup to import them. This is not shared storage or a production tool.
+- New home page with **Design your window**, **Projects**, **Pictures** and **Get a quote** cards.
+- Revised window selector based on real feedback:
+  - Fixed windows: single light, two-light vertical, two-light horizontal, three-light, four-light.
+  - Casement windows: flush or stormproof, single side-hung, single top-hung, two-light vertical (one fixed, one opener), top-hung pair.
+  - Sliding sash.
+- Live preview updates for family, configuration, finish, glazing bars and glass selection.
+- Customer quote request flow with indicative pricing and downloadable enquiry JSON.
+- Multiple windows can be added to a single enquiry.
 
-## Next stage
-Add selectable window configurations with validated component geometry and an editable manufacturing library. Keep workshop approval as a separate process. Costs and drawings are indicative; not for fabrication or client quotation without review.
+## Publish
+
+Upload these files to the root of the `stapleton-joinery-at-home` GitHub repository and enable GitHub Pages from `main` and `/(root)`.
